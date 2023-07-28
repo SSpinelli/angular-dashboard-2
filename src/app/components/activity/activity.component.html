@@ -1,0 +1,15 @@
+<div [className]="'activityContainer'">
+  <h2>Activity</h2>
+  <div [className]="'activityCard'" *ngFor="let value of myActivites">
+      <div [className]="'activityCardInfo'">
+        <img [src]="value.imgUrl" alt="" [className]="value.coin">
+        <div>
+          <p>{{value.title}}</p>
+          <span>{{value.subtitle}}</span>
+        </div>
+      </div>
+      <div [className]="'activityValue'">
+        <span>{{value.value}} {{value.coin}}</span>
+      </div>
+  </div>
+</div>

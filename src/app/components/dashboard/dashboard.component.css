@@ -1,0 +1,22 @@
+.graphs-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  width: 1000px;
+  padding-bottom: 40px;
+  padding-top: 40px;
+}
+
+.cardContainer {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  width: 1000px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  border-bottom: 0.5px solid rgba(200, 200, 200, 0.2);
+}
+
+.headerContainer {
+  border-bottom: 0.5px solid rgba(200, 200, 200, 0.2);
+}

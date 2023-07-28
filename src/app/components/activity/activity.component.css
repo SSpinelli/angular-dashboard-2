@@ -1,0 +1,75 @@
+.activityContainer {
+  display: flex;
+  flex-direction: column;
+  border: 0.5px solid #f0f0f0;
+  box-shadow: 0.5px 0.5px 5px rgba(0, 0, 0, 0.1);
+  width: 478px;
+  max-height: 339px;
+  overflow-y: scroll;
+}
+
+.activityCard {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  border-radius: 5px;
+  border: 0.5px solid transparent;
+}
+
+.activityCard:hover {
+  border-color: #f0f0f0;
+  box-shadow: 0.5px 0.5px 5px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.2s, border-color 0.2s;
+}
+
+.activityCardInfo, .activityValue {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h2 {
+  margin-left: 20px;
+  font-size: 25px;
+}
+
+p {
+  margin: 0;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.activityCardInfo div span {
+  color: gray;
+  font-size: 13px;
+}
+
+.activityCardInfo {
+  flex-direction: row !important;
+  justify-content: start !important;
+  align-items: center !important;
+  gap: 10px;
+}
+
+.activityCardInfo img {
+  width: 30px;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.BTC {
+  background-color: rgba(234, 220, 34, 0.4);
+}
+
+.ETH {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.RIP {
+  background-color: rgba(23, 142, 203, 0.2);
+}
+
+.DAS {
+  background-color: rgba(42, 39, 107,0.2);
+}

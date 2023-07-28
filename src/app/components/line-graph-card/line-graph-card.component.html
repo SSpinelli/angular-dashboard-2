@@ -1,0 +1,12 @@
+<div [className]="'lineContainer'">
+  <div [className]="'infoContainer'">
+    <h1>Bitcoin</h1>
+    <div>
+      <h3>{{(MyBalanceService.myWallet.bitcoin / MyBalanceService.priceBitcoinToReal).toFixed(6)}} BTC</h3>
+      <span>R$ {{MyBalanceService.myWallet.bitcoin}}</span>
+    </div>
+  </div>
+  <div [className]="'graph-container'">
+    <canvasjs-chart [options]="chartOptions" [styles]="{width: '210px', height:'150px'}"></canvasjs-chart>                     
+  </div>
+</div>

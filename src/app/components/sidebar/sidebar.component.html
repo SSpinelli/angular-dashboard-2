@@ -1,0 +1,55 @@
+<!-- <mat-toolbar>Responsive side navigation</mat-toolbar> -->
+
+<mat-sidenav-container>
+  <mat-sidenav>
+    <div class="logoContainer">
+      <button class="openMenuButton" (click)="closeSideNav()">
+        <img  src="../../../assets/cross-circle-svgrepo-com.svg" alt="">
+      </button>
+      <img class="logo" src="../../../assets/saesportes.png" alt="">
+    </div>
+    <div class="navContainer">
+      <a [className]="liveUrl.includes('dashboard') ? 'active openMenuButton' : 'openMenuButton'" [routerLink]="setNewRoute('/dashboard')">
+        <img  src="../../../assets/dashboard.svg" alt="">
+        <span>Dashboard</span>
+      </a>
+      <a [className]="liveUrl.includes('buysell') ? 'active openMenuButton' : 'openMenuButton'" [routerLink]="setNewRoute('/buysell')">
+        <img  src="../../../assets/arrow-right-arrow-left-svgrepo-com.svg" alt="">
+        <span>Buy / Sell</span>
+      </a>
+      <a [className]="liveUrl.includes('transactions') ? 'active openMenuButton' : 'openMenuButton'" class="openMenuButton" [routerLink]="setNewRoute('/transactions')">
+        <img  src="../../../assets/exchange-dollar-svgrepo-com.svg" alt="">
+        <span>Transactions</span>
+      </a>
+      <a [className]="liveUrl.includes('exchange') ? 'active openMenuButton' : 'openMenuButton'" [routerLink]="setNewRoute('/exchange')">
+        <img  src="../../../assets/exchange-change-svgrepo-com.svg" alt="">
+        <span>exchange</span>
+      </a>
+      <a [className]="liveUrl.includes('configuration') ? 'active openMenuButton' : 'openMenuButton'" [routerLink]="setNewRoute('/configuration')">
+        <img  src="../../../assets/gear-svgrepo-com.svg" alt="">
+        <span>Tools</span>
+      </a>
+    </div>
+  </mat-sidenav>
+
+  <mat-sidenav-content>
+    <button class="openMenuButton" (click)="openSideNav()">
+      <img  src="../../../assets/menu.svg" alt="">
+    </button>
+    <a [className]="liveUrl.includes('dashboard') ? 'active openMenuButton' : 'openMenuButton'"routerLink="dashboard">
+      <img  src="../../../assets/dashboard.svg" alt="">
+    </a>
+    <a [className]="liveUrl.includes('buysell') ? 'active openMenuButton' : 'openMenuButton'" routerLink="buysell">
+      <img  src="../../../assets/arrow-right-arrow-left-svgrepo-com.svg" alt="">
+    </a>
+    <a [className]="liveUrl.includes('transactions') ? 'active openMenuButton' : 'openMenuButton'" routerLink="/transactions">
+      <img  src="../../../assets/exchange-dollar-svgrepo-com.svg" alt="">
+    </a>
+    <a [className]="liveUrl.includes('exchange') ? 'active openMenuButton' : 'openMenuButton'"  routerLink="/exchange">
+      <img  src="../../../assets/exchange-change-svgrepo-com.svg" alt="">
+    </a>
+    <a [className]="liveUrl.includes('configuration') ? 'active openMenuButton' : 'openMenuButton'" routerLink="/configuration">
+      <img  src="../../../assets/gear-svgrepo-com.svg" alt="">
+    </a>
+  </mat-sidenav-content>
+</mat-sidenav-container>

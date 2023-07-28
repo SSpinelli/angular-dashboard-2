@@ -1,0 +1,17 @@
+
+<div class="headerContainer">
+  <app-header />
+</div>
+<div [className]="'cardContainer'">
+  <app-crypto-card coin="BTC" />
+  <app-crypto-card coin="ETH" />
+  <app-crypto-card coin="DAS" />
+  <app-crypto-card coin="RIP" />
+</div>
+<div [className]="'graphs-container'">
+  <app-column-graph-card />
+  <app-activity/>
+  <app-line-graph-card />
+  <app-pizza-graph-card />
+</div>
+

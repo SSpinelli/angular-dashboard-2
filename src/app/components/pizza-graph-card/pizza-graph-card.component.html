@@ -1,0 +1,12 @@
+<div [className]="'pizza-container'">
+  <div>
+    <h1>Your Portfólio</h1>
+    <div [className]="'graph-container'">
+      <canvasjs-chart [options]="chartOptions" [styles]="{ width: '220px', height: '80px' }" />
+    </div>
+  </div>
+  <div [className]="'balance'">
+    <h3>R${{MyBalanceService.totalAmount}}</h3>
+    <span>Pending Balance</span>
+  </div>
+</div>

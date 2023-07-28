@@ -1,0 +1,135 @@
+mat-toolbar {
+  background: #004a9f;
+  color: white;
+}
+
+mat-sidenav {
+  width: 360px;
+  border-right: none;
+  background: #f9f9f9;
+  color: white;
+  padding: 16px;
+  text-align: center;
+  overflow-y: hidden;
+}
+
+mat-sidenav-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: flex-start;
+}
+
+.content {
+  height: calc(100vh - 98px);
+  width: 100px;
+  margin: 16px;
+  margin-left: 32px;
+  margin-bottom: 0;
+  overflow-y: hidden;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 2rem;
+}
+
+mat-sidenav-container {
+  height: 100vh;
+}
+
+.menu-button {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 1rem;
+
+  mat-icon {
+    margin-right: 8px;
+  }
+}
+
+.avatar {
+  margin-top: 16px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.name {
+  margin-top: 8px;
+  font-weight: normal;
+}
+
+.designation {
+  margin-top: 2px;
+  font-size: 0.7rem;
+  color: lightgrey;
+}
+
+mat-divider {
+  margin-top: 16px;
+  margin-bottom: 16px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.openMenuButton {
+  border: none;
+  background-color: transparent;
+  margin-left: 20px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.openMenuButton img {
+  width: 30px;
+  padding: 10px;
+}
+
+.logoContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  border-bottom: 0.5px solid rgba(200, 200, 200, 0.2);
+}
+
+.logo {
+  width: 200px;
+}
+
+.navContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.navContainer a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+}
+
+.navContainer a:hover {
+  background-color: #814CFF;
+  border-radius: 4px;
+  color: white;
+}
+
+.active {
+  background-color: #814CFF;
+  border-radius: 4px;
+  color: white;
+}
+
+.active:hover {
+  background-color: #BEA6FF !important;
+}

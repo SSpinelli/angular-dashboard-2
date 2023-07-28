@@ -1,0 +1,66 @@
+.headerContainer {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  width: 1000px;
+}
+
+.infoContainer {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+h1 {
+  margin: 0;
+}
+
+span {
+  color: gray;
+}
+
+.coinIconContainer {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.coin {
+  width: 20px;
+  height: 20px;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.personContainer {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding-right: 80px;
+}
+
+.person {
+  width: 30px;
+  border-radius: 50%;
+}
+
+.bell {
+  width: 15px;
+}
+
+.BTC {
+  background-color: rgba(234, 220, 34, 0.4);
+}
+
+.ETH {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.RIP {
+  background-color: rgba(23, 142, 203, 0.2);
+}
+
+.DAS {
+  background-color: rgba(42, 39, 107,0.2);
+}

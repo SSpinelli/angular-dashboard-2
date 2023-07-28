@@ -1,0 +1,63 @@
+.icon {
+  width: 20px;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+h1 {
+  margin: 0;
+  font-size: 15px;
+}
+
+span {
+  font-size: 10px;
+}
+
+.watermark {
+  position: absolute;
+  width: 75px;
+  top: 22px;
+  right: 0;
+  opacity: 0.1;
+}
+
+div {
+  width: 156px;
+  height: 80px;
+  padding: 20px;
+  border-radius: 4px;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+  position: relative;
+}
+
+.DAS-div {
+  background-image: linear-gradient(108.49deg, rgba(186, 213, 241,1) 4.37%,rgba(42, 39, 107,1) 98.90%);
+}
+
+.DAS {
+  background-color: rgba(42, 39, 107,0.2);
+}
+
+.BTC-div {
+  background-image: linear-gradient(108.49deg, rgba(247, 238, 147,1) 4.37%,rgba(234, 220, 34,1) 98.90%);
+}
+
+.BTC {
+  background-color: rgba(234, 220, 34, 0.2);
+}
+
+.ETH-div {
+  background-image: linear-gradient(108.49deg, rgba(218, 218, 218,1) 4.37%,rgba(138, 138, 138,1) 98.90%)
+}
+
+.ETH {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.RIP-div {
+  background-image: linear-gradient(108.49deg, rgba(48, 245, 251,1) 4.37%,rgba(23, 142, 203,1) 98.90%);
+}
+
+.RIP {
+  background-color: rgba(23, 142, 203, 0.2);
+}

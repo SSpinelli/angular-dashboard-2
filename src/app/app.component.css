@@ -1,0 +1,32 @@
+.appContainer {
+  display: flex;
+  justify-content: center;
+  background-color: #f0f0f0;
+  height: 100vh;
+}
+
+.homeContainer {
+  display: grid;
+  background-color: white;
+  max-width: 1360px;
+  box-sizing: border-box;
+  grid-template-columns: 360px 1000px;
+  align-items: center;
+  justify-items: center;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+}
+
+.sidebarContainer {
+  width: 360px;
+  border-right: 0.5px solid rgba(200, 200, 200, 0.2);
+}
+
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin-left: 10px;
+}
+
+

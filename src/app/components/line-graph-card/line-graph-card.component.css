@@ -1,0 +1,34 @@
+.lineContainer {
+  display: grid;
+  grid-template-columns: 229px 229px;
+  border: 0.5px solid #f0f0f0;
+  border-radius: 5px;
+  box-shadow: 0.5px 0.5px 5px rgba(0, 0, 0, 0.1);
+  width: 438px;
+  padding: 20px;
+}
+
+.infoContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  margin-left: 15px;
+  border-right: 0.5px solid #f0f0f0;
+}
+.graph-container {
+  margin: 0 10px;
+}
+
+h1 {
+  font-size: 25px;
+}
+
+h3 {
+  font-size: 20px;
+  margin: 0;
+}
+
+span {
+  color: gray;
+}

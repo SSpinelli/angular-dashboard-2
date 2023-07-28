@@ -1,0 +1,12 @@
+<div [className]="'columnContainer'">
+  <div [className]="'controler'">
+    <h1>Imperssion</h1>
+    <div [className]="'buttonsContainer'">
+      <button (click)="changeGraph()" [disabled]="weekChartActive">Weekly</button>
+      <button (click)="changeGraph()" [disabled]="!weekChartActive">Monthly</button>
+    </div>
+  </div>
+  <div>
+    <canvasjs-chart [options]="chartOptions()" [styles]="{width: '458px', height:'240px'}"></canvasjs-chart>    
+  </div>                        
+</div>
